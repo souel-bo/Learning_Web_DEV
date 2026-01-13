@@ -31,7 +31,7 @@ h1{
 h1{
     position: relative;
     top : 50px;
-    left: 30px;
+    left: 10px;
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
     padding: 5px;
@@ -57,16 +57,53 @@ h4{
     left: 350px;
 }
 
-/* .login input{
-    background: transparent;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 30px;
-    color: rgb(255, 255, 255);
-    text-shadow: rgb(0, 0, 0) 0 0 13px;
-}  */
+.login input{
+    position: relative;
+    right : 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 300px;
+    height: 40px;
+    background : rgb(93, 0, 155);
+    border-radius: 30px;
+    /* border: none; */
+    padding: 10px;
+    font-size: 20px;
+    color: rgb(148, 142, 142);
+} 
 
 .password{
     position: relative;
-    top : 130px;
+    top : 100px;
     left: 350px;
+}
+.password input{
+    position: relative;
+    top : 20px;
+    right : 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 300px;
+    height: 40px;
+    background : rgb(93, 0, 155);
+    border-radius: 30px;
+    color: rgb(148, 142, 142);
+    /* border: none; */
+    padding: 10px;
+    font-size: 20px;
+}
+
+button {
+    position: relative;
+    top: 30px;                  
+    right: 300px;        
+    width: 330px;
+    height: 60px;
+    background: rgb(93, 0, 155); 
+    border-radius: 30px;         
+    border: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    /* color: white;*/
+    color: rgb(148, 142, 142);
+    cursor: pointer;
+    /* transition: background 0.3s, transform 0.2s; */
 }
