@@ -12,17 +12,28 @@ body {
 }
 
 h1{
-    color: blueviolet;
     text-align: center;
-    font-family: 'Arial', sans-serif;
+}
+
+
+.Container{
+    text-align: center;
+    width: 400px;
+    padding: 250px;
+    background : linear-gradient(to bottom, rgb(91, 0, 171), rgb(0, 0, 0));
+    border-radius: 100px;
+    margin : 100px auto;
+    border: rgb(0, 0, 0) 2px solid;
+    box-shadow: 0 0 20px white;
 }
 
 h4{
-    color: blueviolet;
+    position: relative;
+    top : -200px;
     text-align: center;
-    font-family: 'Arial', sans-serif;
-}
-
-div{
-    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 5px;
+    font-size: 30px;
+    color: white;
+    text-shadow: rgb(94, 94, 94) 0 0 5px;
 }
