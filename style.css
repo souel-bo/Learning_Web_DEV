@@ -17,9 +17,10 @@ h1{
 
 
 .Container{
-    text-align: center;
-    width: 400px;
-    padding: 250px;
+    position : relative;
+    top: 50px;
+    width: 1000px;
+    height: 800px;
     background : linear-gradient(to bottom, rgb(91, 0, 171), rgb(0, 0, 0));
     border-radius: 100px;
     margin : 100px auto;
@@ -27,13 +28,45 @@ h1{
     box-shadow: 0 0 20px white;
 }
 
-h4{
+h1{
     position: relative;
-    top : -200px;
+    top : 50px;
+    left: 30px;
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
     padding: 5px;
-    font-size: 30px;
+    font-size: 50px;
     color: white;
-    text-shadow: rgb(94, 94, 94) 0 0 5px;
+    text-shadow: rgb(0, 0, 0) 0 0 13px;
+}
+
+h4{
+    position: relative;
+    top : 0px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 5px;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    text-shadow: rgb(0, 0, 0) 0 0 10px;
+}
+
+.login{
+    position: relative;
+    top : 100px;
+    left: 350px;
+}
+
+/* .login input{
+    background: transparent;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    text-shadow: rgb(0, 0, 0) 0 0 13px;
+}  */
+
+.password{
+    position: relative;
+    top : 130px;
+    left: 350px;
 }
