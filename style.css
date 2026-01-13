@@ -1,0 +1,28 @@
+/* selector {
+  property: value;
+  property: value;
+} */ 
+ /* Basic structure of CSS */
+
+body {
+    /* background: linear-gradient(direction, color1, color2); */
+    background: linear-gradient(to bottom, #380079, #000000);
+    min-height: 100vh;
+    margin: 0;
+}
+
+h1{
+    color: blueviolet;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+}
+
+h4{
+    color: blueviolet;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+}
+
+div{
+    text-align: center;
+}
