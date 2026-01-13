@@ -1,11 +1,10 @@
-/* selector {
+/* /* selector {
   property: value;
   property: value;
 } */ 
  /* Basic structure of CSS */
 
 body {
-    /* background: linear-gradient(direction, color1, color2); */
     background: linear-gradient(to bottom, #380079, #000000);
     min-height: 100vh;
     margin: 0;
@@ -65,10 +64,9 @@ h4{
     height: 40px;
     background : rgb(93, 0, 155);
     border-radius: 30px;
-    /* border: none; */
     padding: 10px;
     font-size: 20px;
-    color: rgb(148, 142, 142);
+    color: #b47cff;   
 } 
 
 .password{
@@ -85,8 +83,7 @@ h4{
     height: 40px;
     background : rgb(93, 0, 155);
     border-radius: 30px;
-    color: rgb(148, 142, 142);
-    /* border: none; */
+    color: #b47cff;
     padding: 10px;
     font-size: 20px;
 }
@@ -102,8 +99,60 @@ button {
     border: none;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
-    /* color: white;*/
-    color: rgb(148, 142, 142);
+    color: #b47cff;   
     cursor: pointer;
-    /* transition: background 0.3s, transform 0.2s; */
+}
+
+p {
+    margin-top: 30px;
+    font-size: 14px;
+    color: #d0c8e0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    top : 30px;
+    left: -270px;
+}
+
+p a {
+    color: #b47cff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s, text-shadow 0.3s;
+}
+
+p a:hover {
+    color: #e0c7ff;
+    text-shadow: 0 0 8px rgba(180, 124, 255, 0.8);
+}
+
+.other-login {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    color: #e0c7ff;
+    text-shadow: 0 0 8px rgba(180, 124, 255, 0.8);
+    position: relative;
+    top: -590px; 
+    left : 200px;
+}
+
+.other-login::before {
+    content: "";
+    position: absolute;
+    top: 80%;
+    left: 1000px;
+    width: 4%;
+    height: 2px;
+    background: rgba(255, 255, 255, 0.5);
+    transform: translateY(-50%);
+}
+.other-login::after {
+    content: "";
+    position: absolute;
+    top: 80%;
+    right: 1000px;
+    width: 4%;
+    height: 2px;
+    background: rgba(255, 255, 255, 0.5);
+    transform: translateY(-50%);
 }
