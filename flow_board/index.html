@@ -1,9 +1,59 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-
+        <title>Flow_Board</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        
+        <h1 class="Project_title">Set Your Tasks With Flow_Board</h1>
+        <header class="head_page">
+            <p class="board">PROJECT BOARD</p>
+            <button class="button_task" id="add-task-btn">+ Add Task</button>
+        </header>
+
+        <main class="board-container" id="board">
+            
+            <!-- Column 1: TO DO -->
+            <section class="column" data-status="todo">
+                <div class="column-header">
+                    <h2 class="column-title">TO DO</h2>
+                    <span class="task-count">1</span>
+                </div>
+                <div class="task-list">
+                    <article class="task-card" data-id="1" draggable="true">
+                        <h3 class="task-title">Design wireframes</h3>
+                        <span class="tag">Design</span>
+                    </article>
+                </div>
+            </section>
+
+            <!-- Column 2: IN PROGRESS -->
+            <section class="column" data-status="in-progress">
+                <div class="column-header">
+                    <h2 class="column-title">IN PROGRESS</h2>
+                    <span class="task-count">1</span>
+                </div>
+                <div class="task-list">
+                    <article class="task-card" data-id="2" draggable="true">
+                        <h3 class="task-title">Set up HTML structure</h3>
+                        <span class="tag">Dev</span>
+                    </article>
+                </div>
+            </section>
+
+            <!-- Column 3: DONE -->
+            <section class="column" data-status="done">
+                <div class="column-header">
+                    <h2 class="column-title">DONE</h2>
+                    <span class="task-count">0</span>
+                </div>
+                <div class="task-list">
+                    <!-- Empty drop zone waiting for finished tasks -->
+                </div>
+            </section>
+
+        </main>
     </body>
 </html>
